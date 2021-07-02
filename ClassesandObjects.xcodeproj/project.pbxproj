@@ -13,6 +13,8 @@
 		A8991E44268640D200E5A29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8991E42268640D200E5A29A /* Main.storyboard */; };
 		A8991E46268640D300E5A29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8991E45268640D300E5A29A /* Assets.xcassets */; };
 		A8991E49268640D300E5A29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8991E47268640D300E5A29A /* LaunchScreen.storyboard */; };
+		A8991E512686418700E5A29A /* RosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8991E502686418700E5A29A /* RosterTableViewController.swift */; };
+		A8991E532686423F00E5A29A /* ScholarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8991E522686423F00E5A29A /* ScholarClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A8991E45268640D300E5A29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8991E48268640D300E5A29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8991E4A268640D300E5A29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8991E502686418700E5A29A /* RosterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterTableViewController.swift; sourceTree = "<group>"; };
+		A8991E522686423F00E5A29A /* ScholarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A8991E45268640D300E5A29A /* Assets.xcassets */,
 				A8991E47268640D300E5A29A /* LaunchScreen.storyboard */,
 				A8991E4A268640D300E5A29A /* Info.plist */,
+				A8991E502686418700E5A29A /* RosterTableViewController.swift */,
+				A8991E522686423F00E5A29A /* ScholarClass.swift */,
 			);
 			path = ClassesandObjects;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8991E512686418700E5A29A /* RosterTableViewController.swift in Sources */,
 				A8991E41268640D200E5A29A /* ViewController.swift in Sources */,
 				A8991E3D268640D200E5A29A /* AppDelegate.swift in Sources */,
+				A8991E532686423F00E5A29A /* ScholarClass.swift in Sources */,
 				A8991E3F268640D200E5A29A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
